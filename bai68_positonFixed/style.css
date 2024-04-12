@@ -1,0 +1,27 @@
+.mess-bottom a {
+    font-size: 2rem;
+    position:fixed;
+    bottom: 20px;
+    right: 10px;
+    color:#ba3adc;
+}
+.nav{
+    position: fixed;
+    background-color: violet;
+    left: 0;
+    right: 0;
+    top:0;
+}
+.nav ul li{
+    list-style-type: none;
+    display:inline-block;
+}
+.nav ul li>a{
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+
+}
+h1{
+    margin-top: 50px;
+}

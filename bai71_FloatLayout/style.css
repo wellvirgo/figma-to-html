@@ -1,0 +1,9 @@
+.pic1{
+    width: 300px;
+    float:right;
+}
+.pic2{
+    width: 300px;
+    float:left;
+    padding-right: 20px;
+}

@@ -1,0 +1,27 @@
+.container{
+    background-color: aqua;
+    height: 500px;
+    display: flex;
+    /* flex-wrap: wrap; */
+    overflow: auto;
+    flex-direction: column;
+}
+.box{
+    background-color: blue;
+    border: 1px solid black;
+    /* width: 30%; */
+    flex-shrink: 0;/*điều chỉnh độ co vào của item khi kích thước lớn dẫn đến tràn*/
+    flex-basis: 30%;/*điều chỉnh size của item ăn theo trục main-axis*/
+}
+.box1{
+    flex-shrink: 0;
+    order: 1;/*điều chỉnh thứ tứ của các phần tử trọng số lớn xếp đầu theo trục mainax*/
+}
+.margin{
+    display: flex;
+    height: 200px;
+    background-color: gray;
+}
+.text{
+    margin: auto;
+}

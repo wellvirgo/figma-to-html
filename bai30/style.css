@@ -1,0 +1,17 @@
+/* ngay sát sau */
+h1+h2{
+    color: red;
+}
+div+div{
+    color: green;
+}
+block+p{
+    color: blue;
+}
+.demo.demo2+h3{
+    color: blueviolet;
+}
+/* tất cả sau */
+h1~h3{
+    color: blue;
+}

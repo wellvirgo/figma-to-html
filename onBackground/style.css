@@ -1,0 +1,33 @@
+.box{
+    width: 200px;
+    height: 200px;
+    border: 50px dotted red;
+    padding: 50px;
+    background-color: cyan;
+    background-image: url(../bai56/1.PNG);
+    /* bg-posstion: vị trí bắt đầu đặt ảnh */
+    /* background-position: top  right; */
+    /* background-position: 0 100%; dùng % */
+    /* background-position: 0 100px;dùng giá trị tuyệt đối */
+
+    /* bg-size: kích thước ảnh nền */
+    /* background-size: cover; dãn ảnh hết cỡ để lấp phần tử, giữ tỉ lệ ảnh  */
+    /* background-size: contain; thu ảnh lại để hiện thị toàn bộ ảnh trong phần tử chứa nó, phần còn thừa sẽ bị lấp bằng ảnh lặp lại*/
+
+    /* bg-repeat */
+    /* background-repeat: no-repeat; */
+
+    /* bg-origin: xác định gốc ảnh nền đặt ở đâu */
+    /* background-origin: border-box; gốc bức ảnh bắt đầu từ border */
+    /* background-origin: padding-box; gốc bức ảnh bắt đầu từ padding */
+    /* background-origin: content-box;gốc bức ảnh bắt đầu trong content */
+
+    /* bg-clip: quy định nền đổ từ vùng nào */
+    /* background-clip: border-box; */
+    /* background-clip: padding-box; */
+    /* background-clip: content-box; */
+
+    /* cú pháp viết tắt bg */
+    /* background: bg-color bg-image position/bg-size background-repeat bg-origin bg-clip bg-attachment */
+
+}

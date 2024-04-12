@@ -1,0 +1,14 @@
+.box{
+    width: 150px;
+    height: 150px;
+    margin: 100px;
+    background-color: violet;
+    
+    /* box-shadow: offset x offset y độ/nhòe độ/trải/rộng màu/bóng */
+    /* box-shadow: 20px -20px aqua; */
+    /* box-shadow: 20px -20px 20px 5px aqua; */
+    /* Đổ nhiều bóng, mỗi bóng cách nhau một dấu phẩy */
+    box-shadow: 160px 0px red, 0px 160px blue, 160px 160px green;
+    border-radius: 5px;
+
+}

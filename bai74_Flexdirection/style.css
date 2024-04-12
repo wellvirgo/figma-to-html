@@ -1,0 +1,19 @@
+.contain{
+    background-color: black;
+    color:white;
+    display: flex;
+    height: 500px;
+    /* flex-direction: row-reverse; */
+    /* justify-content: flex-end; */
+    /* align-items: end; */
+    /* flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end; */
+    /* flex-direction: column-reverse;
+    justify-content: flex-end;
+    align-items: flex-start; */
+    flex-flow: wrap column-reverse;
+}
+.box{
+    border:1px solid white;
+}

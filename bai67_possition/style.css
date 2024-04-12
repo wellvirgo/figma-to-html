@@ -1,0 +1,56 @@
+.box{
+    height: 100px;
+    width: 100px;
+    color: #fff;
+    /* Căn giữa text trong khối */
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.box1{
+    background-color: red;
+    /* position:static luồng mặc định*/
+    /* position: relative;
+    left: 50px; 
+    vị trí lệch qua bên trái 50px so với vị trí ban đầu
+    */
+}
+.box2{
+    background-color: violet;
+    /* position:absolute; đưa phần tử lền một mặt phẳng khác 
+    định vị dựa trên phần tử chứa nó gần nhất có position: relative
+    nếu không có định vị dựa trên webpage
+    */
+    right:0;
+    bottom:100px;
+}
+.box3{
+    background-color: blue;
+}
+h1{
+    background-image: linear-gradient(violet,aqua);
+    background-clip: text;
+    color: transparent;
+}
+.content{
+    background-color: yellow;
+    width: 400px;
+    margin:0 auto;
+    position: relative;
+    top:100px;
+}
+.noti{
+    font-size: 2rem;
+    color:violet;
+    position: relative;
+}
+.mes_number{
+    padding:5px;
+    background-color: red;
+    color: #fff;
+    border-radius: 50%;
+    font-size: 0.75rem;
+    position: absolute;
+    left:1.8rem;
+    top:-1rem;
+}

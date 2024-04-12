@@ -1,0 +1,33 @@
+a{
+    text-decoration: none;
+    background-color: pink;
+    border-radius: 999px;
+    color:black;
+    display:inline-block;
+    padding:8px 16px;
+    margin:50px;
+    text-align: center;
+}
+a:hover{
+    background-color: black;
+    color:pink;
+}
+body{
+    background-color: aqua;
+}
+.parent{
+    font-size: 10px;
+}
+.child{
+    font-size:2em;
+    width: 2em;
+    height: 2em;
+    background-color: violet;
+    border:solid;
+}
+.child1{
+    font-size: 2rem;
+    width: 2rem;
+    height: 2rem;
+    background-color: violet;
+}

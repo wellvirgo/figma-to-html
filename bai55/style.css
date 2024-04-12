@@ -1,0 +1,24 @@
+.box{
+    width: 200px;
+    height: 200px;
+    background-image: linear-gradient( blue /*50%*/,pink /*50%*/);
+    background-size: contain;
+    /* background-size: cover; */
+    /* background-size: 100% 100%; */
+    background-position: center;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-color: rgba(169, 84, 248, 0.708);
+    background-attachment: fixed;
+} 
+.testlocal{
+    width: 70%;
+    height:200px;
+    overflow: auto;
+    background-image: url(anhcunxinh.jpg);
+    background-size: contain;
+    color: lawngreen;
+    background-attachment: local;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

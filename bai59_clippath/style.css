@@ -1,0 +1,11 @@
+.box {
+    width: 200px;
+    height: 200px;
+    background: url(../img/image.png) right/cover;
+    /* clip-path: circle(50%);cắt hình tròn; 50% ở đây là 50% của max(width, height) */
+    /* clip-path: circle(50% at 50% 100%); at x% y%: quy định tâm bức ảnh/tâm đường tròn nằm ở đâu */
+    /* clip-path: inset(20px round 20px 50px 100px); cắt hình chữ nhật*/
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 50%, 0 100% );/*cắt hình đa giác*/
+    border-radius: 15px;
+    margin:0 auto;
+}

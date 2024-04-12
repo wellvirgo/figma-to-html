@@ -1,0 +1,66 @@
+/* pseudo-hover */
+/* p:hover {
+    color: red;
+    font-size: 30px;
+    user-select: none;
+} */
+/* pseudo-active */
+.active:active {
+    color: blueviolet;
+    font-size: 20px;
+}
+
+/* pseudo-link */
+.click_me:link {
+    color: chocolate;
+}
+
+/* pseudo-visited */
+.click_me:visited {
+    color: red;
+}
+
+/* pseudo-empty */
+.div_em:empty {
+    background-color: blue;
+    width: 200px;
+    height: 100px;
+}
+
+.div_em {
+    background-color: red;
+    width: 200px;
+    height: 100px;
+}
+
+/* pseudo-target tác động lên khi phần tử có url chứa #id*/
+h2:target {
+    color: blueviolet;
+}
+
+/* pseudo: first-child */
+p:first-child {
+    color: blueviolet;
+}
+
+/* pseudo: last-child */
+p:last-child {
+    color: blueviolet;
+}
+
+/* pseudo:nth-child(n) chiều từ trên xuống
+dùng odd cho phần tử ở vị trí lẻ
+dùng even ở vị trí lẻ */
+p:nth-child(2) {
+    color: blueviolet;
+}
+/* pseudo: only-child chọn khi là thẻ con duy nhất*/
+p:only-child {
+    color: red;
+}
+/* pseudo: n-of-type tương tự các child trên nhưng quan tâm đến thể loại
+ví dụ: p: first-of-type chọn thẻ con loại p đầu tiên */
+/* pseudo: not loại trừ thể nào đó*/
+#ketbai:not(a){
+    font-size: 50px;
+}

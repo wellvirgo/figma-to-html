@@ -1,0 +1,26 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    border: 10px solid red;
+}
+.box1{
+    margin-bottom: 50px;
+}
+.box2{
+    margin-top: 70px;
+}
+
+.boxparent{
+    height: 250px;
+    background-color: pink;
+    margin-top:70px;
+}
+.boxchild{
+    width: 50%;
+    background-color: blueviolet;
+    margin-top: 50px;
+}

@@ -1,0 +1,29 @@
+/* padding */
+/* đều cả 4  hướng */
+/* padding:20px; */
+/* padding: 20px 25px;  */
+
+/* border */
+/* border-radius */
+/* border-top-left-radius:30px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 15px; */
+.box {
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    background-color: blueviolet;
+}
+
+.box1 {
+    border: 10px solid blue;
+}
+.box2 {
+    border: 10px solid green;
+    margin-left:160px;
+}
+.box3 {
+    border: 10px solid red;
+    margin-left: 320px;
+}

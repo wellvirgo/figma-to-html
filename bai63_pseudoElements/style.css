@@ -1,0 +1,28 @@
+/* dòng đầu tiên của phần tủ */
+p::first-line {
+    color: red;
+}
+/* kí tự đầu tiên của phần tử */
+p::first-letter{
+    color:blue;
+    font-size: 50px;
+}
+/* vùng đang được bôi đen */
+/* không viết gì như ::selection chỉ có thể gọi v */
+p::selection{
+    background-color: violet;
+}
+/* chọn các điểm đánh dấu của phần tử li trong phần tử khác */
+li::marker{
+    color: red;
+    font-size: 50px;
+}
+/*::before: thêm 1 phần tử vào trước 1 phần tử khác*/
+/*::after: thêm 1 phần tử vào sau 1 phần tử */
+.box::before{
+    content:"em ở đằng trước nè";/*thêm nội dung vào đằng trước class box*/
+}
+.box::after{
+    content:"em ở đằng sau nè"/*thêm nội dung vào sau class box*/
+}
+/* display hiển thị của ::before và ::after mặc định là inline */

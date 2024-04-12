@@ -1,0 +1,26 @@
+:root{
+    --box-height:100px;
+    --box-color:violet;
+}
+.box1{
+    height: var(--box-height);
+    background-color: var(--box-color);
+    margin-bottom: 10px;
+}
+.box2{
+    height: var(--box-height);
+    background-color: var(--box-color);
+    margin-bottom: 10px;
+}
+.box3{
+    height: var(--box-height);
+    background-color: var(--box-color);
+    margin-bottom: 10px;
+}
+/* khai báo biến ở đâu thì chỉ có phần tử đó và các cấp con của nó có thể dùng thôi */
+.deltai{
+    --background-span:blue;
+}
+.deltai span{
+    background-color: var(--background-span,violet);/*màu back up khi biến xảy ra lỗi*/
+}

@@ -1,0 +1,13 @@
+.section{
+    display:flex;
+    justify-content:space-around;
+}
+img{
+    width: 150px;
+    height: 100px;
+}
+.section-item{
+    width: 150px;
+    /* overflow: hidden; */
+    text-wrap: wrap;
+}

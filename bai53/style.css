@@ -1,0 +1,24 @@
+li{
+    list-style-type: none;
+    margin-top: 11px;
+}
+.fa-brands,.fa-solid{
+    color: violet;
+    margin-right: 5px;
+}
+.fa-facebook{
+    color:blue;
+}
+.fa-youtube{
+    color:red;
+}
+.box{
+    /* background-image: url(lacay.png),url(anhnen.png); */
+    background-image: url(anhnen.png);
+    /* height: 100vh; */
+    width: 500px;
+    height: 100px;
+    /* background-repeat: no-repeat; */
+    background-size: contain;
+    border: solid 10px aqua
+}

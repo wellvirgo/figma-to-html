@@ -1,0 +1,18 @@
+.contain{
+    display:flex;
+    background-color: black;
+    /* flex-wrap: nowrap; */
+    flex-wrap: wrap;
+    /* flex-wrap: wrap-reverse;*/
+    color:white;     
+    /* align-content: center;   */
+    /* align-content: start; */
+    /* align-content: end; */
+    /* align-content: space-around; */
+    /* align-content: space-between; */
+    height: 500px;
+}
+.box{
+    width: 30%;
+    border: 1px solid palegreen;
+}

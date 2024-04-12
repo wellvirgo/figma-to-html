@@ -1,0 +1,12 @@
+.box{
+    width: 200px;
+    height: 200px;
+    background-image: url(../bai56/1.PNG);
+    /* background-clip: padding-box; */
+    border: 50px dotted red;
+    padding: 50px;
+    /* giá trị mặc định của bg-origin là padding-box(ảnh bắt đầu từ padding) */
+    background-origin:content-box ; /*gốc của ảnh bắt đầu từ border */
+    /* background-origin: content-box; gốc của bắt đầu từ content */
+    background-clip: content-box;
+}

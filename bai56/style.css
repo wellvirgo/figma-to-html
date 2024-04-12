@@ -1,0 +1,18 @@
+.box{
+    width: 200px;
+    height: 200px;
+    background-image: url(./1.PNG);
+    border:50px dotted red;
+    padding: 50px;
+    background-clip: padding-box;
+    background-size: cover;
+}
+
+@supports(background-clip: text) or (-webkit-background-clip: text){
+    .h1_hl strong{
+        background-image: linear-gradient(blue,pink);
+        background-clip: text;
+        -webkit-background-clip: text;
+        color:transparent;
+    }
+}
